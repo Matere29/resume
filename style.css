@@ -9,6 +9,9 @@ p{
     text-align: left;
     
 }
+img{
+    border-radius: 50%;
+}
 div.content{
     overflow: scroll;
     height: 1100px;
@@ -34,9 +37,9 @@ p{
 aside{
     float: left;
     width: 30%;
-    height: 100%;
-    background-color: aliceblue;
-    padding:20px;
+    height: 1000px;
+    background-color: rgb(178, 208, 234);
+    padding: 15px;
 }
 
 aside li{
@@ -45,16 +48,25 @@ aside li{
     padding: 0;
     
 }
-href{
-    background-color: green;
+a{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+a:visited{
+    color: purple;
+}
+a:active{
+    color: brown;
 }
     
 article{
     float: right;
     padding: 15px;
     width:70%;
-    height: 100;
-    background-color: blanchedalmond;
+    height: 1000px;
+    background-color: rgb(211, 166, 210);
 
 }
 section::after{
