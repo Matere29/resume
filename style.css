@@ -1,9 +1,11 @@
 *{
     box-sizing: border-box;
+    
 }
 body{
     font-family:Arial, Helvetica, sans-serif;
-    border:18px solid rgb(255, 74, 13)"
+    margin: 10px;
+    
 }
 p{
     text-align: left;
@@ -11,6 +13,7 @@ p{
 }
 img{
     border-radius: 50%;
+    border-style: groove;
 }
 div.content{
     overflow: scroll;
@@ -19,11 +22,14 @@ div.content{
 header{
     text-align: center;
     background-color: antiquewhite;
-    padding: 10px;
+    padding: 5px;
     font-size: 18px;
     color:black;
+    margin: 0px;
+ 
 
 }
+
 #intro{
     text-align: center;
 }
@@ -33,18 +39,23 @@ p{
 }
 #qualification{
     text-align: left;
+ 
 }
 aside{
     float: left;
-    width: 30%;
+    width: 20%;
     height: 1000px;
     background-color: rgb(178, 208, 234);
     padding: 15px;
+    border: 20px;
+    border-style: groove;
+   
+   
 }
 
 aside li{
     
-    list-style-type: none;
+    list-style-type:none;
     padding: 0;
     
 }
@@ -60,13 +71,28 @@ a:visited{
 a:active{
     color: brown;
 }
-    
+h3{
+    border-bottom: 5px;
+    color: #000;
+    border-style: outset;
+} 
+section{
+    margin: 5px;
+    border-style: groove;
+   
+}  
+body{
+    border-style: groove;
+} 
 article{
     float: right;
-    padding: 15px;
-    width:70%;
-    height: 1000px;
+    padding: 10px;
+    width:80%;
+    height:1000px;
     background-color: rgb(211, 166, 210);
+    border-style: groove;
+    
+    
 
 }
 section::after{
@@ -79,6 +105,7 @@ footer{
     padding:10px;
     text-align: center;
     background-color: gainsboro;
+    margin: 0px;
     
 }
 @media(max-width:600px){
