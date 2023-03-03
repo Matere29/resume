@@ -17,11 +17,11 @@ img{
 }
 div.content{
     overflow: scroll;
-    height: 1100px;
+    height: 100%;
 }
 header{
     text-align: center;
-    background-color: antiquewhite;
+    background-image: url("Images/Section.jpg");
     padding: 5px;
     font-size: 18px;
     color:black;
@@ -29,9 +29,27 @@ header{
  
 
 }
+#menubar.ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#menubar li{
+    float: left;
+}
+#menubar li a{
+    display: block;
+    padding: 8px;
+    background-color: aliceblue;
+    
+}
+header.a{
+    text-align: right;
+}
 
 #intro{
-    text-align: center;
+    text-align:center;
 }
 
 p{
@@ -43,11 +61,10 @@ p{
 }
 aside{
     float: left;
-    width: 20%;
+    width: 30%;
     height: 1000px;
-    background-color: rgb(178, 208, 234);
+    background-image: url("IMAGES/Section.jpg");
     padding: 15px;
-    border: 20px;
     border-style: groove;
    
    
@@ -87,9 +104,9 @@ body{
 article{
     float: right;
     padding: 10px;
-    width:80%;
+    width:70%;
     height:1000px;
-    background-color: rgb(211, 166, 210);
+    background-image: url("IMAGES/Section.jpg");
     border-style: groove;
     
     
@@ -104,7 +121,7 @@ footer{
 
     padding:10px;
     text-align: center;
-    background-color: gainsboro;
+    background-image: url("IMAGES/footer.jpg");
     margin: 0px;
     
 }
