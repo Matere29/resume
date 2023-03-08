@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <!----Head-->
+    <head>
+        <title>My Digital Resume</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>     
+    </head>
+
+<!---Body tag-->
+<body>
+    <!---Using flex box-->
+    <!---Start of my container-->
+    
+    <div class = "flex-container">
+        <div class="item 1">
+            
+            <header>
+                
+                   
+                    <picture>
+                        <source media="(max-width: 650px)"srcset="Images/Small.jpg">
+                        <source media="(max-width: 1000px)"srcset="Images/medium.jpg">
+                        <img src="Images/large.jpg" alt="large">
+                    </picture>
+                   
+
+           
+                    <h1>Rorisang Makgaka</h1>
+                        <p id="intro">Up close and personal with me...</p>
+                       
+                        <!---Navigation with links-->
+                            <ul>
+                                <li><a href="#About Me"><i class="fa-solid fa-address-card"></i>About</i></a></li>
+                                <li><a href="#Education"><i class="fa-sharp fa-solid fa-school"></i>Education</li></a></li>
+                                <li><a href="#Experience"><i class="fa-solid fa-book-open-reader"></i>Experience</a></li>
+                                <li><a href="#Skills"><i class="fa-solid fa-screwdriver-wrench"></i>Skills</a></li>
+                                <li><a href="https://www.notion.so/255e174e302d4e559cf0277c59cabb3d?v=cc723c3615294ca1b49b41f1dbda731d"><i class="fa-solid fa-blog"></i>Blog</a></li>
+                                <li><a href="#Contacts"><i class="fa-solid fa-address-book"></i>Contacts</a></li> 
+                            </ul>  
+                                   
+            </header> 
+        </div>
+
+        <div class="item 2">
+            <section>
+                <aside>
+                  
+
+                    <a href="Documents/CV-RorisangMakgaka.pdf" class="button"><i class="fa fa-download"></i>Download CV</a>
+                    <h2 id="About Me">About Me</h2>
+                    <p>I am an open minded individual with the ability to think on my feet.
+                       I work very well in a team environment and I get along with others easily.
+                    </p>
+                </aside>
+
+                
+                <!----About qualification 1------------>
+                    <article>
+                        <h2 id="Education">Education</h2>
+                        <br>
+                        <h2>Intro to Web at <a href="http://www.codespace.co.za">CodespaceAcademy</a></h2>
+
+                            <h2>Qualification 1</h2>
+                                <p>
+                                    Oracle University:-
+                                    Oracle Cloud Infrastructure Foundations 2021 Certified Associate   
+                                </p>
+
+                            <!----About qualification 2------------>
+                            <h2>Qualification 2</h2>
+                            <p>
+                                Thethe High School(Rustenburg):-
+                                Matric Certificate, completed in 2010 with the following subjects:-Mathematics, Physical Sciences, Life Sciences, Geography, Setswana, English and Life Orientation.
+                            </p>
+
+                    <!----Job experience------------>
+                    <h1 id="Experience">Experience</h1>
+                        <h2>Job 1</h2>
+                            <li>Working as a tutor for grade 1 to grade 12 at <a href="http://www.teachme2.com">Teach Me 2</a></li>
+                            <li>Tutoring the following subjects:- Mathematics, Physical Sciences, Life Sciences and Setswana</li>
+                            <li>Tutoring within 15 km radius from where I am staying</li>
+                            <li>Submitting tutoring schedules every second week</li>
+                            
+                            
+                        <h2>Job 2</h2>
+                            <li>Working as Treasurer at a local school (Ramotse Primary School)</li>
+                            <li>Collecting invoices and making payments</li>
+                            <li>Creating income and expenditure report for the month</li>
+                            <li>Collecting bank statements and balancing the accounting books</li>
+                            <li>Reporting in monthly Financial Meetings and Quaterly meetings.</li>
+                            
+
+                    <!----About my skills------------>
+                    <h1 id="Skills">Skills</h1>
+                        <li>Complex problem solving</li>
+                        <li>Emotional Intelligence</li>
+                        <li>Critical Thinking</li>
+                        <li>Creativity</li>
+                        <li>Coodinating with others</li>
+                       
+                </article>
+        </section>
+
+        </div>
+        <div class="item 3">
+            <footer>
+                <h1 id="Contacts">Contacts</h1>
+                    <a href="https://www.linkedin.com/in/rorisang-makgaka-7775aa132/?originalSubdomain=za"><i class="fa-brands fa-linkedin"style="font-size:30px;color:#25aee4d9"></i></a>
+                    <a href="https://www.facebook.com/makgakarorisang/"><i class="fa-brands fa-facebook "style="font-size:30px;color:#1f2ce0d9"></i></a>
+                    <a href="https://www.instagram.com"></i><i class="fa-brands fa-square-instagram"style="font-size:30px;color:#e82cadd9;"></i></a>
+                    <a href="https://www.twitter.com"></i><i class="fa-brands fa-twitter" style="font-size:30px;color:#25aee4d9"></i></i></a> 
+                    <a href="https://formsubmit.co/el/zicetu"><i class="fa-solid fa-envelope" style="font-size:30px;color:#f50f0f"></i></i></a>
+
+                    <div class="form-container">
+                        <form action="https://formsubmit.co/makgakarorisang@gmail.com" method="POST">
+                            <label for="name">Name:</label>
+                            <input type="name" name="name" id="" placeholder="enter your Name" name="name">
+                            <label for="surname">Surname:</label>
+                            <input type="surname" name="surname" id="" placeholder="enter your Surname" name="surname">
+                            <label for="email">Male</label>
+                            <input type="radio" id="male" name="male" value="male">
+                            <label for="email">Female</label>
+                            <input type="radio" id="female" name="female" value="female"><br>
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="" placeholder="email here please" name="email">
+                            <select name="" id="subject">
+                                <option value="Interview Opportunity">Interview Opportunity</option><br>
+                                <option value="Recruiter">Recruiter</option>
+                                <option value="Website Feedback">Website Feedback</option>
+                            </select>
+                                <label for="message">Message:</label>
+                                <textarea name="message" id="text" cols="15" rows="2" placeholder="message here please..."></textarea><br>
+                                <br>
+                            <button type="submit">Submit</button> 
+                           
+                        </form> 
+                    </div>    
+            </footer>
+        </div>
+
+       
+               
+</div> 
+<!---End of my container-->
+</body>
+</html>

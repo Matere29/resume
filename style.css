@@ -2,11 +2,15 @@
     box-sizing: border-box;
     
 }
-body{
+body,html{
     font-family:Arial, Helvetica, sans-serif;
     margin: 10px;
+    height:100% ;
     
 }
+
+
+
 p{
     text-align: left;
     
@@ -21,14 +25,17 @@ div.content{
 }
 header{
     text-align: center;
-    background-image: url("Images/Section.jpg");
     padding: 5px;
     font-size: 18px;
     color:#000;
     margin: 0px;
+    background-image: url(Images/Section.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
  
 
 }
+
 .flex-container {
  display: flex;
  flex-direction: column;
